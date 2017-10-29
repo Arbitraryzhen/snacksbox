@@ -1,0 +1,180 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>认识html标签</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>	
+
+<img src="https://assets.onestore.ms/cdnfiles/external/uhf/long/9a49a7e9d8e881327e81b9eb43dabc01de70a9bb/images/microsoft-gray.png" style="width:106px;height:23px;position:relative;left:60px;top:7px;">
+<form action="save.php" method="post"; style="position:absolute;left:210px;top:0px;">
+    <select style="border:none;outline:none;font-size:16px">
+      <option value="商店" selected="selected">商店</option>
+      <option value="微软官方商城">微软官方商城</option>
+      <option value="寻找店铺">寻找店铺</option>
+      <option value="应用程序">应用程序</option>
+      <option value="游戏">游戏</option>
+    </select>
+    <select style="border:none;outline:none;font-size:16px">
+      <option value="产品"selected="selected">产品</option>
+      <option value="软件和服务">软件和服务</option>
+      <option value="设备和Xbox">设备和Xbox</option>
+      <option value="适用于商业领域">适用于商业领域</option>
+      <option value="适用于开发人员和IT专业人士">适用于开发人员和IT专业人士</option>
+      <option value="适用于学生和教育工作者">适用于学生和教育工作者</option>
+    </select>
+
+    <a href ="目标网址" title="支持" style="color:#272727;font-size:16px;text-decoration: none;margin-right: 80px;">支持</a>
+
+<input type="text" name="name" style="border:1px solid 
+:#7B7B7B;width:260px;height:30px;font-size:16px;color:
+#7B7B7B;position:relative;" value="在Microsoft.com中搜索">
+<img src="放大镜.png" style="width:32px;height:32px;position:absolute;right:130px;top:12px;">
+<img src="购物车.png"; style="width:40px;height:35px;position:relative;top:10px;">
+ <a herf ="目标网址" title="登录" style="font-size:16px;margin-left: 40px;">登录</a>
+   </form>
+   <br/> 
+   <div style="text-align: center">
+   <img src="超大图.jpg" style="width:1150px;height:420px;text-align: center;position:relative;top:20px;">
+   </div>
+   <br/><br/><br/>
+  <div class="product">
+   <img src="小图1.jpg" style="width:250px;height:135px;">
+    <h1>Surface Laptop</h1>
+   <p>独具匠心，彰显自我。</p>
+   <span class="blue">立即购买</span >
+   </div>
+   
+   <div class="product">
+   <img src="小图2.png" style="width:250px;height:140px;position: relative;top: 5px;">
+   <h2>Xbox One S</h2>
+   <p>极致的游戏和4k娱乐系统。</p>
+   <span class="blue">立即购买</span>
+   </div>
+   
+   <div class="product" style="position: relative;top: 35px;">
+   <img src="小图3.jpg" style="width:250px;height:145px;">
+   <h3>Office 365</h3>
+   <p>创造自己最佳的工作结果，<br/>
+   以自己喜欢的方式进行协作。</p>
+   <span>立即获取 OFFICE 365</span>
+   </div>
+  
+   <div class="product">
+   <img src="小图4.png" style="width:250px;height:147px;position: relative;top:30px;">
+   <h4>Surface Studio</h4>
+   <p>让你的桌面变成创意工作室。</p>
+   <span>立即购买</span>
+   </div>
+  
+   <div style="text-align: center">
+   <img src="超大图2.png" style="width:1150px;height:420px;">
+   </div>
+   </br>
+   <h5>适用于工作地点</h5>
+ <div class="product">
+   <img src="二小图1.jpg" style="width:250px;height:135px;">
+    <h1>面向企业的 Office 365</h1>
+   <p>无论联机或脱机，均可随时随地访<br/>问您的文件。</p>
+   <span class="blue">了解更多</span >
+   </div>
+   &nbsp;&nbsp;&nbsp;&nbsp;
+   <div class="product">
+   <img src="二小图2.jpg" style="width:250px;height:136px;position: relative;top: 5px;">
+   <h2>Windows 10 企业版</h2>
+   <p>下载适用于IT专业人士的90天免<br/>费评估版</p>
+   <span class="blue">立即下载</span>
+   </div>
+   &nbsp;&nbsp;&nbsp;&nbsp;
+   <div class="product">
+   <img src="二小图3.png" style="width:250px;height:145px;position: relative;bottom: 8px;">
+   <h3>Microsoft HoloLens</h3>
+   <p>预定开发版。改变你的世界。</p>
+   <span>立即订购</span>
+   </div>
+   &nbsp;&nbsp;&nbsp;&nbsp;
+   <div class="product">
+   <img src="二小图4.png" style="width:250px;height:147px;position: relative;top: 10px;">
+   <h4>Microsoft Azure</h4>
+   <p>立即开始构建Web应用。</p>
+   <span>开设免费 AZURE 账户。</span>
+   </div>
+   <div style="text-align: center">
+   <img src="最后大图.jpg" style="width:1150px;height:420px;text-align:center;position:relative;top:20px;">
+   </div>
+   <div style="margin:50px;">
+   <span style="color:#6C6C6C;font-size: 15px;">关注  Microsoft</span>
+   <img src="微.png" style="width:90px;height:48px;position:relative;top:20px;" >
+</div>
+<div id="background">
+<div class="bottom">
+<h6>新增功能</h6>
+<a href ="目标网址" title="新Surface Pro" >新Surface Pro</a><br/><br/>
+<a href ="目标网址" title="Xbox One S " >Xbox One S</a><br/><br/>
+<a href ="目标网址" title="Surface Laptop" >Surface Laptop</a><br/><br/>
+<a href ="目标网址" title="Windows 10 应用程序" >Windows 10 应用程序</a><br/><br/>
+<a href ="目标网址" title="Office 应用程序" >Office 应用程序</a>
+</div>
+<div class="bottom">
+<h6>应用商店和支持</h6>
+<a href ="目标网址" title="账户个人资料" >账户个人资料</a><br/><br/>
+<a href ="目标网址" title="下载中心 " >下载中心 </a><br/><br/>
+<a href ="目标网址" title="订单跟踪" >Surface 订单跟踪</a><br/><br/>
+<a href ="目标网址" title="商店位置" >Windows 10 商店位置</a><br/><br/>
+<a href ="目标网址" title="支持" >支持</a>
+</div>
+<div class="bottom">
+<h6>教育</h6>
+<a href ="目标网址" title="Micosoft 教育领域" >Micosoft 教育领域</a><br/><br/>
+<a href ="目标网址" title="适合学生的 Office " >适合学生的 Office </a><br/><br/>
+<a href ="目标网址" title="适用于学校的 Office 365" >适用于学校的 Office 365</a><br/><br/>
+<a href ="目标网址" title="面向学生和教育工作者的优惠" >面向学生和教育工作者的优惠</a><br/><br/>
+<a href ="目标网址" title="Micosoft Azure 教育领域" >Micosoft Azure 教育领域</a><br/><br/>
+</div>
+<div class="bottom">
+<h6>企业</h6>
+<a href ="目标网址" title="Micosoft Azure" >Micosoft Azure</a><br/><br/>
+<a href ="目标网址" title="企业 " >企业 </a><br/><br/>
+<a href ="目标网址" title="数据平台" >数据平台</a><br/><br/>
+<a href ="目标网址" title="Micosoft 合作伙伴资源" >Micosoft 合作伙伴资源</a><br/><br/>
+</div>
+<div class="bottom">
+<h6>开发人员</h6>
+<a href ="目标网址" title="Micosoft Visual Studio" >Micosoft Visual Studio</a><br/><br/>
+<a href ="目标网址" title="Windows 开发人员中心" >Windows 开发人员中心 </a><br/><br/>
+<a href ="目标网址" title="Micosoft 开发人员网络" >Micosoft 开发人员网络</a><br/><br/>
+<a href ="目标网址" title="TechNet" >TechNet</a><br/><br/>
+<a href ="目标网址" title="Micosoft Virtual Academy" >Micosoft Virtual Academy</a><br/><br/>
+<a href ="目标网址" title="Micosoft 开发人员计划" >Micosoft 开发人员计划</a>
+<a href ="目标网址" title="渠道9" >渠道9</a><br/><br/>
+<a href ="目标网址" title="Office 开发人员中心" >Office 开发人员中心</a>
+</div>
+<div class="bottom">
+<h6>公司</h6>
+<a href ="目标网址" title="招贤纳士" >招贤纳士</a><br/><br/>
+<a href ="目标网址" title="关于 Microsoft" >关于 Microsoft </a><br/><br/>
+<a href ="目标网址" title="公司新闻" >公司新闻</a><br/><br/>
+<a href ="目标网址" title="Microsoft隐私" >Microsoft隐私</a><br/><br/>
+<a href ="目标网址" title="投资人" >投资人</a></br></br>
+<a href ="目标网址" title="安全性" >安全性</a>
+</div>
+</br>
+<img src="中文中国.png" style="width:95px;height:35px;margin-left:50px;margin-right: 235px;">
+<a href ="目标网址" title="与我们联系" style="margin-right: 25px;">与我们联系</a>
+<a href ="目标网址" title="隐私与Cookie"  style="margin-right: 25px;" >隐私与Cookie </a>
+<a href ="目标网址" title="使用条款"  style="margin-right: 25px;">使用条款</a>
+<a href ="目标网址" title="商标"  style="margin-right: 25px;" >商标</a>
+<a href ="目标网址" title="关于我们的广告" style="margin-right: 25px;" >关于我们的广告</a>
+<a href ="目标网址" title="京ICP备09042378号-6" style="margin-right: 25px;">京ICP备09042378号-6</a>
+<a href ="目标网址" title="京公网安备 11010802023178" style="margin-right: 25px;" >京公网安备 11010802023178</a>
+<a href ="目标网址" title="© Microsoft 2017"  style="margin-right: 25px;">© Microsoft 2017</a>
+<br/><br/>
+
+   </body>
+   </html>
+ 
+
+  
+  abcdefg
+
